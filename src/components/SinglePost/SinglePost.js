@@ -38,7 +38,7 @@ function SinglePost({posts, id, getPosts}, props) {
     }
     return (
         <div className="singlePost">
-            {updateMode ? (
+            { updateMode ? (
                 <EditPost posts={posts} post={post} id={id} getPosts={getPosts} />
             ) :(
                 <div className="singlePostWrapper">
@@ -47,13 +47,14 @@ function SinglePost({posts, id, getPosts}, props) {
                 </div>
 
                 <h1 className="singlePostTitle">{post.title}
-                    <div className="singlePostEdit">
-                        { post.user_id == userId &&
-                        <>              
+
+                    <div className="singlePostEdit"> 
+                {post.user.username == username &&
+                    <>            
                         <i className="singlePostIcon far fa-edit" id="edit-btn" onClick={()=>setUpdateMode(true)}></i>
                         <i className="singlePostIcon far fa-trash-alt" id="delete-btn" onClick={removePost}></i>.
-                        </>
-                        }
+                    </>
+                }
                     </div>
                 </h1>
                 <div className="singlePostInfo">
