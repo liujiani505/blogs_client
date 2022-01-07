@@ -1,0 +1,83 @@
+
+
+.singlePostWrapper {
+    width:80%;
+    margin: 40px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.singlePostImage {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+.singlePostTitle {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 28px;
+}
+
+.singlePostTitleInput {
+    margin: 30px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 28px;
+    text-align:center;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: #333;
+}
+
+.singlePostTitleInput:focus{
+    outline: none;
+}
+
+.singlePostEdit {
+    float: right;
+    font-size: 18px;
+}
+
+
+.singlePostIcon {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#edit-btn {
+    color: rgb(132, 130, 255)
+}
+
+#delete-btn {
+    color: tomato;
+}
+
+
+.singlePostInfo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Monda', sans-serif;
+    color: gray;
+  }
+
+.singlePostDescription {
+    font-family: 'Monda', sans-serif;
+    color: #666;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.singlePostDescriptionInput {
+    font-family: 'Monda', sans-serif;
+    color: #666;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.singlePostDescriptionInput:focus{
+    outline: none;
+}

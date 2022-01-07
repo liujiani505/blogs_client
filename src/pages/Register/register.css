@@ -1,0 +1,53 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: 
+      url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v904-nunny-012_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=5943c6cd1f5d785cddeafb1f33ba56a4");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.registerForm {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Monda', sans-serif;
+}
+
+input {
+    padding: 10px;
+}
+  
+.registerForm > label {
+    margin: 10px 0;
+}
+  
+.registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(132, 130, 255);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+  
+.registerButton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(252, 173, 173);
+}
+  
+/* .registerLoginButton {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+} */
+

@@ -1,0 +1,39 @@
+.editpost {
+    padding-top: 50px;
+  }
+  
+.form {
+    position: relative;
+}
+  
+.form-group {
+    margin: 20px;
+}
+  
+.writeInput {
+    font-size: 20px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+    font-family: 'Monda', sans-serif;
+    border: .5px solid grey;
+}
+  
+.writeInput:focus {
+    outline: none;
+}
+  
+.writeText {
+    font-size: 20px;
+    height: 80vh;
+}
+  
+.update-btn {
+    color: white;
+    background-color:rgb(132, 130, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
