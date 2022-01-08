@@ -7,6 +7,7 @@ Eye on Art is a blog application with full CRUD (Create, Read, Update, Destroy) 
 - Languages - HTML5, CSS3, JavaScript, Ruby
 - Framework - Rails, React
 - Database - PostgreSQL
+- Authentication - JWT
 
 ## Entity Relationship Diagram
 
@@ -23,7 +24,7 @@ Eye on Art is a blog application with full CRUD (Create, Read, Update, Destroy) 
 ##### Posts page
 <img width="763" alt="Screen Shot 2022-01-07 at 9 35 58 PM" src="https://user-images.githubusercontent.com/64924326/148628555-d33e8b24-d8e1-42cb-b09a-50bdd03f6bf7.png">
 
-## Future Enhancements
+## Future Enhancement
 - Allow users to comment on posts
 
 ## Deployment
