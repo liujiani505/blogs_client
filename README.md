@@ -14,6 +14,7 @@ Eye on Art is a blog application with full CRUD (Create, Read, Update, Destroy) 
 
 ## React Component Tree
 
+<img width="763" alt="Screen Shot 2022-01-07 at 10 03 13 PM" src="https://user-images.githubusercontent.com/64924326/148629363-437a80d7-5bdd-4f9e-9218-1888b23fcf6d.png">
 
 ## Screenshots
 ##### Home page
