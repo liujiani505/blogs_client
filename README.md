@@ -10,5 +10,11 @@ Eye on Art is a blog application with full CRUD (Create, Read, Update, Destroy) 
 
 ## Entity Relationship Diagram
 
+<img width="763" alt="Screen Shot 2021-12-26 at 9 24 30 PM" src="https://user-images.githubusercontent.com/64924326/148628358-bdf1286f-fd94-4c10-b8d6-f8382fdf9811.png">
+
+## React Components
+
+## Screenshots
+
 
 
